@@ -80,7 +80,9 @@
     <Content Include="compass-regular.svg" />
     <Content Include="components.js" />
     <Content Include="empty_image.png" />
+    <Content Include="FooterSection.aspx" />
     <Content Include="gears-solid.svg" />
+    <Content Include="HeaderSection.aspx" />
     <Content Include="HomePage.aspx" />
     <Content Include="icon_maps.jpg" />
     <Content Include="location-dot-solid.svg" />
@@ -105,6 +107,20 @@
     </Compile>
     <Compile Include="BluetoothScreen.aspx.designer.cs">
       <DependentUpon>BluetoothScreen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FooterSection.aspx.cs">
+      <DependentUpon>FooterSection.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FooterSection.aspx.designer.cs">
+      <DependentUpon>FooterSection.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HeaderSection.aspx.cs">
+      <DependentUpon>HeaderSection.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HeaderSection.aspx.designer.cs">
+      <DependentUpon>HeaderSection.aspx</DependentUpon>
     </Compile>
     <Compile Include="HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>

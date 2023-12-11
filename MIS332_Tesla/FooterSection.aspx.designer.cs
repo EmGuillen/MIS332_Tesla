@@ -11,7 +11,7 @@ namespace MIS332_Tesla
 {
 
 
-    public partial class SettingsScreen
+    public partial class FooterSection
     {
     }
 }

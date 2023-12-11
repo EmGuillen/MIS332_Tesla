@@ -2,6 +2,7 @@
 
 <!DOCTYPE html>
 
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta charset="UTF-8" />
@@ -28,24 +29,25 @@
         }
     </style>
     <link href="main.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />   
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        function updateTime() {
+            const now = new Date();
+            const currentTime = now.toLocaleTimeString();
+            document.querySelector('#timeText').textContent = currentTime;
+        }
+        setInterval(updateTime, 1000)
+
+        $(function () {
+            $('#headerHolder').load('HeaderSection.aspx')
+            $('#footerHolder').load('FooterSection.aspx')
+        })
+    </script>
 </head>
 <body>
     <div id="container">
-        <div id="header">
-            <img src="bars-solid.svg" class="navIcons" />
-            <div id="headerRight">
-
-                <div class="search-container" style="margin-right: 50px">
-                    <form>
-                        <input type="text" placeholder="Search.." name="search" style="height: 25px;" />
-                        <button type="submit" style="height: 30px"><i class="fa fa-search"></i></button>
-                    </form>
-                </div>
-                <img src="wifi-solid.svg" class="navIcons" style="margin-right: 15px" />
-                <img src="bluetooth-b.svg" class="navIcons" />
-
-            </div>
+        <div id="headerHolder">
         </div>
         <!-- Main Content -->
         <div id="mainContent">
@@ -70,16 +72,7 @@
                 </div>
             </div>
         </div>
-
-        <div id="footer">
-            <div style="display: flex; flex-flow: row; align-items: center">
-                <img src="car-solid.svg" class="navIcons" style="margin-right: 15px" />
-                <p>00:00 AM</p>
-                <div class="divider"></div>
-                <p>MIS_332</p>
-            </div>
-
-        </div>
+        <div id="footerHolder"/>
     </div>
 </body>
 </html>
