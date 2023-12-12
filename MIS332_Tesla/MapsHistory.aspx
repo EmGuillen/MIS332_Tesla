@@ -38,11 +38,10 @@
             padding-bottom: 20px;
         }
 
-        .mapIcon{
+        .mapIcon {
             width: 20px;
             vertical-align: middle;
             margin-right: 6px;
-
         }
     </style>
     <link href="main.css" rel="stylesheet" />
@@ -83,7 +82,7 @@
                 <div style="padding-left: 20px">
 
                     <div class="lineSeparator">
-                        <img src="location-arrow-solid.svg" class="mapIcon"/>
+                        <img src="location-arrow-solid.svg" class="mapIcon" />
                         <span>George Milan </span>
                         <div>
                             <sub>21 May ~ Vancouver</sub>
@@ -124,7 +123,19 @@
                 </div>
             </div>
         </div>
-        <div id="footerHolder" />
+        <div id="footer">
+            <div style="display: flex; flex-flow: row; align-items: center">
+                <img src="car-solid.svg" class="navIcons" style="margin-right: 15px" />
+                <p id="timeText">00:00 AM</p>
+                <div class="divider"></div>
+                <p>MIS_332</p>
+                <div style="margin-left: auto; margin-right: 15%;">
+                    <img src="chevron-left-solid.svg" style="width: 30px; height: 30px" onclick="location.href = 'MapsScreen.aspx';"/>
+                    <img src="bars-solid.svg" style="margin-right: 50px; margin-left: 50px; width: 30px; height: 30px" />
+                    <img src="chevron-right-solid.svg" style="width: 30px; height: 30px" />
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>

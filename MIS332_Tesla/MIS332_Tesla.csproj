@@ -76,6 +76,7 @@
     <Content Include="calendar-days-solid.svg" />
     <Content Include="car-model-icon.jpg" />
     <Content Include="car-solid.svg" />
+    <Content Include="chevron-left-solid.svg" />
     <Content Include="chevron-right-solid.svg" />
     <Content Include="compass-regular.svg" />
     <Content Include="components.js" />
