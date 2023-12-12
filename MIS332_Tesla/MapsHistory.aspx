@@ -25,14 +25,24 @@
 
         #locationOrigin {
             display: flex;
-            margin-bottom: 10px;
+            margin-bottom: 50px;
             margin-top: 20px;
         }
 
         .lineSeparator {
             border-bottom: solid;
+            border-width: 1px;
             border-color: rgb(209 204 206);
             margin-bottom: 20px;
+            margin-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .mapIcon{
+            width: 20px;
+            vertical-align: middle;
+            margin-right: 6px;
+
         }
     </style>
     <link href="main.css" rel="stylesheet" />
@@ -70,48 +80,50 @@
                     <span style="flex-grow: 1">Maps History Location</span>
                     <img src="chevron-right-solid.svg" />
                 </div>
+                <div style="padding-left: 20px">
 
-                <div class="lineSeparator">
-                    <img src="location-arrow-solid.svg" style="width: 20px" />
-                    <span>George Milan </span>
-                    <div>
-                        <sub>21 May ~ Vancouver</sub>
+                    <div class="lineSeparator">
+                        <img src="location-arrow-solid.svg" class="mapIcon"/>
+                        <span>George Milan </span>
+                        <div>
+                            <sub>21 May ~ Vancouver</sub>
+                        </div>
                     </div>
-                </div>
 
-                <div class="LineSeparator">
-                    <img src="location-arrow-solid.svg" style="width: 20px" />
-                    <span> George Milan</span>
-                    <div>
-                        <sub> 21 May ~  Surrey</sub>
+                    <div class="lineSeparator">
+                        <img src="location-arrow-solid.svg" class="mapIcon" />
+                        <span>George Milan</span>
+                        <div>
+                            <sub>21 May ~  Surrey</sub>
+                        </div>
                     </div>
-                </div>
 
-                <div class="lineSeparator">
-                    <img src="location-arrow-solid.svg" style="width: 20px" />
-                    <span> Pablo Escobar</span>
-                    <div>
-                        <sub> 10 September ~ Vancouver</sub>
+                    <div class="lineSeparator">
+                        <img src="location-arrow-solid.svg" class="mapIcon" />
+                        <span>Pablo Escobar</span>
+                        <div>
+                            <sub>10 September ~ Vancouver</sub>
+                        </div>
                     </div>
-                </div>
 
-                <div class="lineSeparator">
-                    <img src="location-arrow-solid.svg" style="width: 20px" />
-                    <span> Pablo Escobar</span>
-                    <div>
-                        <sub> 10 December ~ Richmond</sub>
+                    <div class="lineSeparator">
+                        <img src="location-arrow-solid.svg" class="mapIcon" />
+                        <span>Pablo Escobar</span>
+                        <div>
+                            <sub>10 December ~ Richmond</sub>
+                        </div>
                     </div>
-                </div>
 
-                <div class="lineSeparator">
-                    <img src="location-arrow-solid.svg" style="width: 20px" />
-                    <span> Pablo Escobar</span>
-                    <div>
-                        <sub> 10 December ~ Burnaby</sub>
+                    <div class="lineSeparator">
+                        <img src="location-arrow-solid.svg" class="mapIcon" />
+                        <span>Pablo Escobar</span>
+                        <div>
+                            <sub>10 December ~ Burnaby</sub>
+                        </div>
                     </div>
                 </div>
             </div>
-            </div>
+        </div>
         <div id="footerHolder" />
     </div>
 </body>
