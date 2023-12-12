@@ -29,7 +29,7 @@
         }
     </style>
     <link href="main.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>   
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script>
         function updateTime() {
@@ -63,6 +63,8 @@
                     <img src="chevron-right-solid.svg" />
                 </div>
                 <img src="compass-regular.svg" style="width: 30px; height: 30px; position: absolute; top: 25px; right: 30px;"/>
+                <img src="list-ul-solid.svg" style="width: 30px; height: 30px; position: absolute; bottom: 25px; left: 30px;"
+                    onclick="location.href = 'MapsHistory.aspx';"/>
                 <div class="LocationBox">
                     <img src="location-dot-solid.svg" style="margin-right: 5px" />
                     <span>Northside Park</span>

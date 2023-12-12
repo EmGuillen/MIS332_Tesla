@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HeaderSection.aspx.cs" Inherits="MIS332_Tesla.HeaderSection" %>
 
 <div id="header">
-    <img src="bars-solid.svg" class="navIcons" />
+    <img src="bars-solid.svg" class="navIcons" onclick="location.href = 'HomePage.aspx';"/>
     <div id="headerRight">
 
         <div class="search-container" style="margin-right: 50px">
