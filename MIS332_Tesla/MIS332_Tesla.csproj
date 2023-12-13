@@ -71,6 +71,7 @@
     <Content Include="bars-solid.svg" />
     <Content Include="bell-solid.svg" />
     <Content Include="bluetooth-b.svg" />
+    <Content Include="BluetoothHistory.aspx" />
     <Content Include="BluetoothScreen.aspx" />
     <Content Include="bluetooth_icon.png" />
     <Content Include="calendar-days-solid.svg" />
@@ -97,14 +98,24 @@
     <Content Include="MapsHistory.aspx" />
     <Content Include="MapsScreen.aspx" />
     <Content Include="message-solid.svg" />
+    <Content Include="mobile-screen-solid.svg" />
+    <Content Include="mobile-solid.svg" />
     <Content Include="music-solid.svg" />
     <Content Include="phone-solid.svg" />
+    <Content Include="plus-solid.svg" />
     <Content Include="SettingsScreen.aspx" />
     <Content Include="Web.config" />
     <Content Include="wifi-solid.svg" />
     <Content Include="youtube.svg" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BluetoothHistory.aspx.cs">
+      <DependentUpon>BluetoothHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BluetoothHistory.aspx.designer.cs">
+      <DependentUpon>BluetoothHistory.aspx</DependentUpon>
+    </Compile>
     <Compile Include="BluetoothScreen.aspx.cs">
       <DependentUpon>BluetoothScreen.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -131,7 +131,7 @@
                 <p>MIS_332</p>
                 <div style="margin-left: auto; margin-right: 15%;">
                     <img src="chevron-left-solid.svg" style="width: 30px; height: 30px" onclick="location.href = 'MapsScreen.aspx';"/>
-                    <img src="bars-solid.svg" style="margin-right: 50px; margin-left: 50px; width: 30px; height: 30px" />
+                    <img src="bars-solid.svg" style="margin-right: 50px; margin-left: 50px; width: 30px; height: 30px" onclick="location.href = 'HomePage.aspx';"/>
                     <img src="chevron-right-solid.svg" style="width: 30px; height: 30px" />
                 </div>
             </div>
